@@ -1,0 +1,47 @@
+/* fons fosc */
+body {
+    background-color: #222222;
+    color: white;
+    font-family: Calibri;
+    font-size: 18px;
+    margin: 0px;
+}
+
+/* titol vermell */
+h1 {
+    color: #ff4444;
+    font-size: 26px;
+    border-bottom: 1px solid #ff4444;
+    padding: 5px;
+    margin: 0px;
+    margin-bottom: 30px;
+}
+
+/* paragrafs amb la ratlla vermella a l'esquerra */
+.parrafo1 {
+    background-color: #555555;
+    border-left: 5px solid #ff4444;
+    width: 85%;
+    padding: 15px 20px;
+    margin-left: 5px;
+    margin-bottom: 30px;
+}
+
+/* paragrafs amb vora grisa */
+.parrafo2 {
+    background-color: #555555;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    width: 85%;
+    padding: 15px 20px;
+    margin-left: 5px;
+    margin-bottom: 30px;
+}
+
+/* text ressaltat */
+.ressaltat {
+    background-color: #4a0000;
+    color: #ff9999;
+    padding: 2px 5px;
+    border-radius: 3px
+}

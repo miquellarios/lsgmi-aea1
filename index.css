@@ -1,0 +1,46 @@
+/* fons blau */
+body {
+    background-color: #003399;
+    padding: 10px;
+}
+
+/* caixa amb la vora daurada */
+.contenidor {
+    border: 2px solid gold;
+    width: 80%;
+    margin: auto;
+    padding: 10px 20px;
+}
+
+h1 {
+    color: gold;
+    font-family: "Courier New";
+    border-bottom: 2px solid gold;
+    margin-top: 0px;
+}
+
+h2 {
+    color: lightgray;
+    font-family: Arial;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+li {
+  color: white;
+  font-family: Arial;
+  font-size: 13px;
+}
+
+/* enllaços en blanc */
+a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+/* quan passa el ratoli canvia el color */
+a:hover {
+    color: blue;
+    background-color: white;
+}

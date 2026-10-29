@@ -1,0 +1,46 @@
+/* lletra de tota la pagina */
+body {
+    font-family: "Segoe UI";
+    width: 600px;
+    padding: 10px;
+}
+
+/* titol */
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    border-bottom: 2px solid #2c3e50;
+    margin: 0px;
+    padding-bottom: 5px;
+}
+
+/* caixes de les llistes */
+section {
+    border: 2px solid #dddddd;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px #cccccc;
+    padding: 10px;
+    margin-top: 20px
+}
+
+/* separacio entre dos section */
+section + section {
+    margin-top: 40px;
+}
+
+h2 {
+    color: #2c3e50;
+    font-size: 20px;
+    border-bottom: 2px solid #cccccc;
+    margin: 0px;
+}
+
+li {
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+/* els punts sense numero */
+.sense {
+    list-style-type: none;
+}

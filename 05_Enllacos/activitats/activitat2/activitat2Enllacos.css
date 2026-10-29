@@ -1,0 +1,119 @@
+/* fons gris fosc */
+body {
+    background-color: #3a3b40;
+    color: white;
+    font-family: Arial;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+
+/* caixa del titol */
+header {
+    background-color: black;
+    border: 2px solid red;
+    text-align: center;
+    margin-top: 10px;
+}
+
+h1 {
+    color: red;
+    font-size: 40px;
+}
+
+/* menu */
+nav {
+    background-color: black;
+    border: 2px solid blue;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 5px 15px;
+}
+
+/* quan passa el ratoli fons vermell */
+nav a:hover {
+    background-color: red;
+    border-radius: 4px;
+}
+
+/* seccions de les pelis */
+section {
+    background-color: black;
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 10px 25px 25px 25px;
+    margin-top: 20px;
+}
+
+/* les parells en blau */
+section:nth-child(even) {
+    border-color: blue;
+}
+
+/* la caixa de director, durada... */
+.info {
+    background-color: #1e2330;
+    list-style-type: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-size: 13px;
+}
+
+.info li {
+    margin-top: 5px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+li {
+    font-size: 13px;
+    margin-top: 4px
+}
+
+/* boto de la wikipedia */
+.wiki {
+    background-color: #e62429;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 8px 25px;
+    border: 2px solid #e62429;
+    border-radius: 3px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.wiki:hover {
+    background-color: white;
+    color: #e62429;
+    border: 2px solid black;
+}
+
+hr {
+    margin-top: 25px;
+}
+
+/* enllaç de tornar inici */
+.inici {
+    color: #aaaaaa;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 5px 15px;
+    margin-left: 20px;
+}
+
+/* ombra blanca */
+.inici:hover {
+    color: #aaccff;
+    box-shadow: 0px 0px 6px white;
+}
